@@ -22,7 +22,9 @@ To use this app, just download the **Starter_code2** folder , and use the Termin
 
 ## Usage
 
+Run the app by typing in **python app.py** and it will prompt you enter the path for CSV file containing the loans, which is **data/daily_rate_sheet.csv:**
 Code block that questionary is used for finding the qaulified load list and store it in csv file.
+
 
 ```
 def save_qualifying_loans(qualifying_loans):
@@ -63,7 +65,7 @@ def save_qualifying_loans(qualifying_loans):
 
 ## Contributors
 
-Solely developed by Priya Sivaraj with help from Google.
+Solely developed by Priya Sukumaran with help from Google.
 
 ---
 
