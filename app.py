@@ -120,11 +120,7 @@ def save_qualifying_loans(qualifying_loans):
     else:
         want_to_save_csvfile = str(questionary.text("Do you want to save the qualified loans to a CSV file (Say Yes/No)?").ask())
         #print ("You said " + want_to_save_csvfile )
-        if want_to_save_csvfile == "No" or \
-            want_to_save_csvfile == "no" or \
-            want_to_save_csvfile == "n" or \
-            want_to_save_csvfile == "N" or \
-            want_to_save_csvfile == "NO":
+        if want_to_save_csvfile.lower() == "no" or want_to_save_csvfile.lower() == "n" :
             print ("Thank you for using this app")
         else:
             qualifying_loans_file_store_path = questionary.text("Where do you want to save the qualifying loans CSV file (for OptOut say N?").ask()
