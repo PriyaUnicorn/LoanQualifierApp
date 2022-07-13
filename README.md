@@ -58,7 +58,7 @@ def save_qualifying_loans(qualifying_loans):
                     print ("The File named as qualifying_loans_file_store_path .csv is stored")
 ```
 
-![Loan Qualifier App Runtime](loanqual_screenshot.png)
+![Loan Qualifier App Runtime](Images/loanqual_screenshot.png)
 ---
 
 ## Contributors
