@@ -25,7 +25,19 @@ To use this app, just download the **Starter_code2** folder , and use the Termin
 Run the app by typing in **python app.py** and it will prompt you enter the path for CSV file containing the loans, which is **data/daily_rate_sheet.csv:**
 Code block that questionary is used for finding the qaulified load list and store it in csv file.
 
+![](Images/loanqual_screenshot_1.png)
 
+---
+Enter in the requested financial data and you will see the debt to **income ratio, loan to value ratio**, and the **number of qualifying loans:**
+
+![](Images/loanqual_screenshot_2.png)
+
+---
+Then enter either **y or n** to save the qualifying loans as a CSV file. If you choose **not** to save the file, then the app will automatically exit. If you move forward to saying, then you must enter the path of where you want to save the file:
+
+![](Images/loanqual_screenshot_3.png)
+
+---
 ```
 def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
