@@ -1,4 +1,4 @@
-![Loan Qualifier]{Images/conceptual-photo-about-loan-qualifier-with-written-phrase.webp}
+![Loan Qualifier](Images/)
 # Loan Qualifier App
 
 Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
